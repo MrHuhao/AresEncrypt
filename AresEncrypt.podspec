@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.subspec 'base64' do |ss|
     ss.source_files = "src/*.{h,m}"
+    ss.requires_arc = false
   end
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
