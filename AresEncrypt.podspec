@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/MrHuhao/AresEncrypt"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.subspec 'base64' do |ss|
-    ss.source_files = "src/*.{h,m}"
+    ss.source_files = "src/NSData+Base64.{h,m}"
     ss.requires_arc = false
   end
 
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "src", "src/*.{h,m}"
-  s.exclude_files = "src/Exclude"
+  s.exclude_files = "src/NSData+Base64.{h,m}"
 
    s.public_header_files = "src/*.h"
 
