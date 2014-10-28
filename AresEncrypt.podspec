@@ -30,7 +30,9 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/MrHuhao/AresEncrypt"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  s.subspec 'base64' do |ss|
+    ss.source_files = "src/*.{h,m}"
+  end
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
